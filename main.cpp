@@ -28,7 +28,7 @@ int main()
             cout << "This puzzle has no solution.\n";
         }
         g1.printSudokuGrid();
-        cout << "If you would like to exit the program, enter \"Y\"\n";
+        cout << "Would you like to exit the program? {Y/N}\n";
         cin >> done;
         cin.ignore();
     } while(done != 'Y' && done != 'y');
